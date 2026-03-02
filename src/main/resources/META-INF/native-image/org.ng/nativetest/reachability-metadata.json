@@ -1,0 +1,186 @@
+{
+  "reflection": [
+    {
+      "type": "com.ctc.wstx.stax.WstxInputFactory"
+    },
+    {
+      "type": "com.ctc.wstx.stax.WstxOutputFactory"
+    },
+    {
+      "type": "com.fasterxml.jackson.databind.deser.BeanDeserializerModifier[]"
+    },
+    {
+      "type": "com.fasterxml.jackson.databind.ext.Java7SupportImpl",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.fasterxml.jackson.databind.ser.BeanSerializerModifier[]"
+    },
+    {
+      "type": "java.lang.Boolean",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "getBoolean",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.ng.nativetest.DataClass",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "setField1",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setField10",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setField2",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setField3",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setField4",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setField5",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setField6",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setField7",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setField8",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setField9",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setInner1",
+          "parameterTypes": [
+            "org.ng.nativetest.DataClass"
+          ]
+        },
+        {
+          "name": "setInner10",
+          "parameterTypes": [
+            "org.ng.nativetest.DataClass"
+          ]
+        },
+        {
+          "name": "setInner2",
+          "parameterTypes": [
+            "org.ng.nativetest.DataClass"
+          ]
+        },
+        {
+          "name": "setInner3",
+          "parameterTypes": [
+            "org.ng.nativetest.DataClass"
+          ]
+        },
+        {
+          "name": "setInner4",
+          "parameterTypes": [
+            "org.ng.nativetest.DataClass"
+          ]
+        },
+        {
+          "name": "setInner5",
+          "parameterTypes": [
+            "org.ng.nativetest.DataClass"
+          ]
+        },
+        {
+          "name": "setInner6",
+          "parameterTypes": [
+            "org.ng.nativetest.DataClass"
+          ]
+        },
+        {
+          "name": "setInner7",
+          "parameterTypes": [
+            "org.ng.nativetest.DataClass"
+          ]
+        },
+        {
+          "name": "setInner8",
+          "parameterTypes": [
+            "org.ng.nativetest.DataClass"
+          ]
+        },
+        {
+          "name": "setInner9",
+          "parameterTypes": [
+            "org.ng.nativetest.DataClass"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.text.resources.cldr.FormatData"
+    },
+    {
+      "type": "sun.text.resources.cldr.FormatData_en"
+    },
+    {
+      "type": "sun.text.resources.cldr.FormatData_en_US"
+    },
+    {
+      "type": "sun.util.resources.cldr.CalendarData"
+    }
+  ],
+  "resources": [
+    {
+      "glob": "META-INF/services/javax.xml.stream.XMLInputFactory"
+    },
+    {
+      "glob": "META-INF/services/javax.xml.stream.XMLOutputFactory"
+    }
+  ]
+}
