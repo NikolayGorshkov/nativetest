@@ -123,6 +123,7 @@ public class NativeTest {
 					} catch (JsonProcessingException e) {
 						throw new RuntimeException(e);
 					}
+					// intentionally ignoring multithreading increment issues
 					i[0] += obj.getField1().length();
 					
 					int linesValue = lines.getAndIncrement();
@@ -177,6 +178,7 @@ public class NativeTest {
 					} catch (JsonProcessingException e) {
 						throw new RuntimeException(e);
 					}
+					// intentionally ignoring multithreading increment issues
 					i[0] += obj.getField1().length();
 					
 					int linesValue = lines.getAndIncrement();
